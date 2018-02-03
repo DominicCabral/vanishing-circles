@@ -1,5 +1,5 @@
 ArrayList<VanishingCircle> circles = new ArrayList<VanishingCircle>();
-boolean clearCircles = false;
+boolean clearCircles = true;
 int backgroundColor = 0;
 
 void setup(){

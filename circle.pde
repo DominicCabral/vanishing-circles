@@ -30,6 +30,12 @@ class VanishingCircle {
          shakeRange = shakeRange - shakeRange/100.0;
          xPoint = xPoint + int(random(-shakeRange,shakeRange));
          yPoint = yPoint + int(random(-shakeRange,shakeRange));
+         
+         //lower color
+         r = r - r/100;
+         g = g - g/100;
+         b = b - b/100;
+
          createCircle();
       }else{
         completed = true;
